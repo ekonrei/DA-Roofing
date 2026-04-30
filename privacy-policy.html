@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | DAMARTINEZ Roofing</title>
+<meta name="description" content="Privacy Policy for DAMARTINEZ Roofing — DAMARTINEZROOFINGLLC. Learn how we collect, use, and protect your information.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+  :root {
+    --charcoal: #1a1a1a;
+    --slate: #2c2c2c;
+    --border: rgba(255,255,255,0.08);
+    --red: #c0392b;
+    --red-light: #e74c3c;
+    --gold: #d4a843;
+    --white: #ffffff;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--charcoal);
+    color: var(--white);
+    line-height: 1.7;
+  }
+
+  header {
+    background: rgba(26,26,26,0.98);
+    border-bottom: 1px solid var(--border);
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-mark {
+    width: 36px; height: 36px;
+    background: var(--red);
+    clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 0% 100%, 0% 35%);
+  }
+
+  nav { display: flex; gap: 24px; align-items: center; }
+  nav a {
+    color: rgba(255,255,255,0.65);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+  }
+  nav a:hover { color: var(--white); }
+
+  .header-phone {
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+
+  /* Page header */
+  .page-hero {
+    background: linear-gradient(135deg, #111 0%, #1e1e1e 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 60px 5%;
+    text-align: center;
+  }
+
+  .page-hero .label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 10px;
+  }
+
+  .page-hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .page-hero p {
+    color: rgba(255,255,255,0.45);
+    font-size: 0.9rem;
+  }
+
+  /* Content */
+  .policy-body {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 70px 5% 90px;
+  }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    color: var(--white);
+    margin: 44px 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h2:first-of-type { margin-top: 0; }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin: 22px 0 8px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 14px;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 16px;
+    padding-left: 0;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.6);
+    padding: 6px 0 6px 22px;
+    position: relative;
+    font-weight: 300;
+  }
+
+  ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--red);
+    font-weight: 600;
+  }
+
+  .highlight-box {
+    background: rgba(192,57,43,0.08);
+    border: 1px solid rgba(192,57,43,0.2);
+    border-radius: 8px;
+    padding: 22px 24px;
+    margin: 20px 0;
+  }
+
+  .highlight-box p {
+    margin-bottom: 8px;
+    color: rgba(255,255,255,0.7);
+  }
+
+  .highlight-box p:last-child { margin-bottom: 0; }
+
+  strong { color: var(--white); font-weight: 600; }
+
+  a { color: var(--red-light); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Footer */
+  footer {
+    background: #111;
+    border-top: 1px solid var(--border);
+    padding: 40px 5% 24px;
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 28px;
+  }
+
+  .footer-brand .logo { margin-bottom: 10px; display: inline-flex; }
+  .footer-brand p { font-size: 0.82rem; color: rgba(255,255,255,0.35); max-width: 280px; }
+
+  .footer-links h4 {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 12px;
+  }
+
+  .footer-links ul { list-style: none; padding: 0; }
+  .footer-links ul li { margin-bottom: 8px; }
+  .footer-links ul li::before { display: none; }
+  .footer-links ul li a { font-size: 0.85rem; color: rgba(255,255,255,0.45); text-decoration: none; }
+  .footer-links ul li a:hover { color: var(--white); }
+
+  .footer-bottom {
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-bottom p { font-size: 0.78rem; color: rgba(255,255,255,0.25); }
+
+  .footer-legal { display: flex; gap: 20px; }
+  .footer-legal a { font-size: 0.78rem; color: rgba(255,255,255,0.35); text-decoration: none; }
+  .footer-legal a:hover { color: rgba(255,255,255,0.7); }
+
+  @media (max-width: 768px) {
+    nav { display: none; }
+    .footer-inner { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">
+    <div class="logo-mark"></div>
+    DAMARTINEZ Roofing
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="privacy-policy.html" style="color: var(--white);">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+  </nav>
+  <a href="tel:6099648765" class="header-phone">609-964-8765</a>
+</header>
+
+<div class="page-hero">
+  <div class="label">Legal</div>
+  <h1>Privacy Policy</h1>
+  <p>Last Updated: April 29, 2026</p>
+</div>
+
+<div class="policy-body">
+
+  <h2>1. About This Policy</h2>
+  <p>This Privacy Policy describes how <strong>DAMARTINEZ Roofing</strong>, operating under the legal business name <strong>DAMARTINEZROOFINGLLC</strong> ("we," "us," or "our"), collects, uses, and handles information submitted through our website or provided to us when requesting roofing services.</p>
+  <p>By using our website or submitting a form, you agree to the practices described in this Privacy Policy.</p>
+
+  <h2>2. Business Identity</h2>
+  <p>
+    <strong>Friendly Business Name:</strong> DAMARTINEZ Roofing<br>
+    <strong>Legal Business Name:</strong> DAMARTINEZROOFINGLLC<br>
+    <strong>Business Address:</strong> 24 Berg Ave, Trenton, NJ 08610<br>
+    <strong>Business Phone:</strong> <a href="tel:6099648765">609-964-8765</a><br>
+    <strong>Business Email:</strong> <a href="mailto:damartinezroofingllc@gmail.com">damartinezroofingllc@gmail.com</a>
+  </p>
+
+  <h2>3. Information We Collect</h2>
+  <p>When you submit a form or contact us through our website, we may collect the following information:</p>
+  <ul>
+    <li><strong>Full Name</strong> — to identify and address you properly</li>
+    <li><strong>Phone Number</strong> — to contact you by phone or SMS regarding your request</li>
+    <li><strong>Email Address</strong> — to follow up on your estimate or service inquiry</li>
+    <li><strong>Property Address</strong> — to understand your roofing project location</li>
+    <li><strong>Project Details / Message</strong> — any information you provide about your roofing needs</li>
+    <li><strong>Form Submission Information</strong> — including the type of service requested and any additional notes you provide</li>
+    <li><strong>SMS Consent Status</strong> — whether you have opted in to receive SMS communications from us</li>
+  </ul>
+  <p>We may also collect general website usage information (such as browser type and page visits) through standard web technologies for analytics purposes. This information does not identify you personally.</p>
+
+  <h2>4. How We Use Your Information</h2>
+  <p>We use the information you provide for the following purposes:</p>
+  <ul>
+    <li>Responding to roofing estimate requests submitted through our website</li>
+    <li>Scheduling appointments and coordinating service visits</li>
+    <li>Providing updates on your roofing project or service inquiry</li>
+    <li>Following up with you about your submitted request</li>
+    <li>Communicating via phone, email, or SMS in connection with your request</li>
+    <li>Sending promotional messages <strong>only if you have separately opted in</strong> to receive promotional communications</li>
+  </ul>
+  <p>We do not use your information for any purpose that is unrelated to the services we provide or that you have not consented to.</p>
+
+  <h2>5. SMS / Text Message Communications</h2>
+  <div class="highlight-box">
+    <h3>Consent to Receive SMS Messages</h3>
+    <p>By submitting our website form and checking the required SMS consent checkbox, you agree to receive SMS (text) messages from DAMARTINEZ Roofing. These messages may include:</p>
+    <ul style="margin: 10px 0;">
+      <li>Confirmation of your estimate request</li>
+      <li>Appointment scheduling and confirmation messages</li>
+      <li>Service updates related to your roofing project</li>
+      <li>Follow-up communications regarding your inquiry</li>
+    </ul>
+    <p style="margin-top: 14px;">If you separately opted in to promotional communications, we may also send promotional messages about our roofing services.</p>
+
+    <h3 style="margin-top: 18px;">Message Frequency</h3>
+    <p>Message frequency may vary depending on the nature of your request and the stage of your project.</p>
+
+    <h3>Rates</h3>
+    <p>Message and data rates may apply based on your mobile carrier and plan.</p>
+
+    <h3>How to Opt Out</h3>
+    <p>You may opt out of SMS messages at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from DAMARTINEZ Roofing.</p>
+
+    <h3>Help</h3>
+    <p>Reply <strong>HELP</strong> to any message for help, or contact us directly at <a href="tel:6099648765">609-964-8765</a> or <a href="mailto:damartinezroofingllc@gmail.com">damartinezroofingllc@gmail.com</a>.</p>
+  </div>
+
+  <h2>6. Data Sharing and Third Parties</h2>
+  <p>We take your privacy seriously. The following outlines how we handle data sharing:</p>
+  <ul>
+    <li><strong>We do not sell your personal information</strong> to any third party for any purpose.</li>
+    <li><strong>Mobile opt-in data and SMS consent information are not shared with third parties</strong> for marketing or promotional purposes under any circumstances.</li>
+    <li>Information may be shared only as necessary to provide services you have requested, such as scheduling or logistics support directly related to your project.</li>
+    <li>We may disclose information if required to do so by law, court order, or other legal process.</li>
+  </ul>
+
+  <h2>7. Data Retention</h2>
+  <p>We retain your information for as long as reasonably necessary to respond to your request, complete any agreed-upon services, and maintain records for standard business purposes. You may contact us at any time to request that we delete your information, subject to any legal retention obligations.</p>
+
+  <h2>8. Your Rights and Choices</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Request access to the personal information we hold about you</li>
+    <li>Request correction of inaccurate information</li>
+    <li>Request deletion of your information (subject to applicable law)</li>
+    <li>Opt out of SMS communications at any time by replying STOP</li>
+    <li>Withdraw consent for future communications by contacting us directly</li>
+  </ul>
+
+  <h2>9. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy or how we handle your information, please contact us:</p>
+  <p>
+    <strong>DAMARTINEZ Roofing (DAMARTINEZROOFINGLLC)</strong><br>
+    24 Berg Ave, Trenton, NJ 08610<br>
+    Phone: <a href="tel:6099648765">609-964-8765</a><br>
+    Email: <a href="mailto:damartinezroofingllc@gmail.com">damartinezroofingllc@gmail.com</a>
+  </p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated effective date. We encourage you to review this page periodically.</p>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <div class="logo-mark"></div>
+        DAMARTINEZ Roofing
+      </a>
+      <p style="margin-top: 10px;">Legal Name: DAMARTINEZROOFINGLLC<br>24 Berg Ave, Trenton, NJ 08610</p>
+      <p style="margin-top: 6px;"><a href="tel:6099648765" style="color: rgba(255,255,255,0.35); text-decoration: none;">609-964-8765</a></p>
+      <p><a href="mailto:damartinezroofingllc@gmail.com" style="color: rgba(255,255,255,0.35); text-decoration: none;">damartinezroofingllc@gmail.com</a></p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#contact">Get an Estimate</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 DAMARTINEZROOFINGLLC. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
